@@ -1,0 +1,1113 @@
+Started GET "/assets/rails.png" for 127.4.158.1 at 2013-10-24 16:27:45 -0400
+
+ActiveRecord::AdapterNotSpecified (database configuration does not specify adapter):
+  activerecord (4.0.0) lib/active_record/connection_adapters/connection_specification.rb:52:in `resolve_hash_connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/connection_specification.rb:46:in `resolve_string_connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/connection_specification.rb:30:in `spec'
+  activerecord (4.0.0) lib/active_record/connection_handling.rb:39:in `establish_connection'
+  activerecord (4.0.0) lib/active_record/railtie.rb:175:in `block (2 levels) in <class:Railtie>'
+  activesupport (4.0.0) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  activesupport (4.0.0) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  activesupport (4.0.0) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  activesupport (4.0.0) lib/active_support/lazy_load_hooks.rb:44:in `each'
+  activesupport (4.0.0) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  activerecord (4.0.0) lib/active_record/base.rb:322:in `<module:ActiveRecord>'
+  activerecord (4.0.0) lib/active_record/base.rb:22:in `<top (required)>'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:633:in `rescue in call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:624:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__3201336316720653085__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  railties (4.0.0) lib/rails/rack/debugger.rb:20:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+Started GET "/" for 127.4.158.1 at 2013-10-24 16:44:03 -0400
+
+ActiveRecord::AdapterNotSpecified (database configuration does not specify adapter):
+  activerecord (4.0.0) lib/active_record/connection_adapters/connection_specification.rb:52:in `resolve_hash_connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/connection_specification.rb:46:in `resolve_string_connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/connection_specification.rb:30:in `spec'
+  activerecord (4.0.0) lib/active_record/connection_handling.rb:39:in `establish_connection'
+  activerecord (4.0.0) lib/active_record/railtie.rb:175:in `block (2 levels) in <class:Railtie>'
+  activesupport (4.0.0) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  activesupport (4.0.0) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  activesupport (4.0.0) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  activesupport (4.0.0) lib/active_support/lazy_load_hooks.rb:44:in `each'
+  activesupport (4.0.0) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  activerecord (4.0.0) lib/active_record/base.rb:322:in `<module:ActiveRecord>'
+  activerecord (4.0.0) lib/active_record/base.rb:22:in `<top (required)>'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:633:in `rescue in call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:624:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__1941229324852188720__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  railties (4.0.0) lib/rails/rack/debugger.rb:20:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+Started GET "/" for 127.4.158.1 at 2013-10-24 16:53:10 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.haml within layouts/application (20.8ms)
+  Rendered layouts/_navigation.html.haml (33.0ms)
+Completed 500 Internal Server Error in 2999ms
+
+ActionView::Template::Error (undefined method `signed_in?' for #<#<Class:0x007fc724566a60>:0x007fc724565b38>):
+    2:   = link_to_unless_current 'Live!', root_url, alt: 'Live!'
+    3: %ul.nav
+    4:   %li
+    5:     - if signed_in?
+    6:       = link_to "Sign out #{current_user.name}", signout_path, id: :sign_out
+    7:     - else 
+    8:       = link_to "Sign in with Facebook", "/auth/facebook", id: :sign_in
+  app/views/layouts/_navigation.html.haml:5:in `_app_views_layouts__navigation_html_haml___930529052140488365_70246642498620'
+  app/views/layouts/application.html.haml:16:in `_app_views_layouts_application_html_haml__1869467067206742484_70246642583780'
+
+
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.4ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (121.8ms)
+Started GET "/" for 127.4.158.1 at 2013-10-24 16:54:04 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.haml (3.7ms)
+  Rendered layouts/_footer.html.haml (3.1ms)
+Completed 200 OK in 49ms (Views: 44.6ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css?body=1" for 127.4.158.1 at 2013-10-24 16:54:04 -0400
+Started GET "/assets/dashboard.css?body=1" for 127.4.158.1 at 2013-10-24 16:54:04 -0400
+Started GET "/assets/jquery.js?body=1" for 127.4.158.1 at 2013-10-24 16:54:04 -0400
+Started GET "/assets/application.js?body=1" for 127.4.158.1 at 2013-10-24 16:54:05 -0400
+Started GET "/assets/jquery_ujs.js?body=1" for 127.4.158.1 at 2013-10-24 16:54:05 -0400
+Started GET "/assets/turbolinks.js?body=1" for 127.4.158.1 at 2013-10-24 16:54:05 -0400
+Started GET "/assets/dashboard.js?body=1" for 127.4.158.1 at 2013-10-24 16:54:05 -0400
+Started GET "/" for 127.4.158.1 at 2013-10-28 13:44:41 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.haml within layouts/application (9.9ms)
+  Rendered layouts/_navigation.html.haml (3.2ms)
+  Rendered layouts/_footer.html.haml (2.1ms)
+Completed 200 OK in 616ms (Views: 573.8ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css?body=1" for 127.4.158.1 at 2013-10-28 13:44:44 -0400
+Started GET "/assets/dashboard.css?body=1" for 127.4.158.1 at 2013-10-28 13:44:44 -0400
+Started GET "/assets/jquery.js?body=1" for 127.4.158.1 at 2013-10-28 13:44:44 -0400
+Started GET "/assets/turbolinks.js?body=1" for 127.4.158.1 at 2013-10-28 13:44:44 -0400
+Started GET "/assets/jquery_ujs.js?body=1" for 127.4.158.1 at 2013-10-28 13:44:44 -0400
+Started GET "/assets/dashboard.js?body=1" for 127.4.158.1 at 2013-10-28 13:44:44 -0400
+Started GET "/assets/application.js?body=1" for 127.4.158.1 at 2013-10-28 13:44:44 -0400
+Started GET "/" for 127.4.158.1 at 2013-10-28 13:47:04 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.haml (0.7ms)
+  Rendered layouts/_footer.html.haml (0.3ms)
+Completed 200 OK in 29ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css?body=1" for 127.4.158.1 at 2013-10-28 13:47:04 -0400
+Started GET "/assets/turbolinks.js?body=1" for 127.4.158.1 at 2013-10-28 13:47:04 -0400
+Started GET "/assets/dashboard.css?body=1" for 127.4.158.1 at 2013-10-28 13:47:04 -0400
+Started GET "/assets/jquery.js?body=1" for 127.4.158.1 at 2013-10-28 13:47:04 -0400
+Started GET "/assets/jquery_ujs.js?body=1" for 127.4.158.1 at 2013-10-28 13:47:04 -0400
+Started GET "/assets/dashboard.js?body=1" for 127.4.158.1 at 2013-10-28 13:47:04 -0400
+Started GET "/assets/application.js?body=1" for 127.4.158.1 at 2013-10-28 13:47:04 -0400
+Started GET "/" for 127.4.158.1 at 2013-10-28 13:47:45 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.haml within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.haml (0.6ms)
+  Rendered layouts/_footer.html.haml (0.2ms)
+Completed 200 OK in 121ms (Views: 115.2ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.4.158.1 at 2013-10-28 13:47:50 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.haml (0.6ms)
+  Rendered layouts/_footer.html.haml (0.2ms)
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.4.158.1 at 2013-10-28 13:47:52 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.haml (1.1ms)
+  Rendered layouts/_footer.html.haml (0.2ms)
+Completed 200 OK in 34ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.4.158.1 at 2013-10-28 13:49:59 -0400
+Processing by DashboardController#show as HTML
+Completed 200 OK in 35ms (ActiveRecord: 0.0ms)
+Started GET "/" for 127.4.158.1 at 2013-10-28 13:51:12 -0400
+Processing by DashboardController#show as HTML
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `call' for nil:NilClass):
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:66:in `call_on_error'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:136:in `rescue in block in process'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:145:in `block in process'
+
+
+
+NameError (uninitialized constant DashboardController::Reloader):
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/656277/app/controllers/dashboard_controller.rb:7:in `show'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:403:in `_run__648104024998234999__process_action__callbacks'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:132:in `block in process'
+
+
+Started GET "/" for 127.4.158.1 at 2013-10-28 13:52:46 -0400
+Processing by DashboardController#show as HTML
+Completed 200 OK in 14ms (ActiveRecord: 0.0ms)
+Started GET "/" for 127.4.158.1 at 2013-10-28 13:53:34 -0400
+Processing by DashboardController#show as HTML
+Completed   in 844341ms
+Started GET "/" for 127.4.158.1 at 2013-10-28 14:07:59 -0400
+Processing by DashboardController#show as HTML
+Completed   in 49975ms
+Started GET "/" for 127.4.158.1 at 2013-10-28 14:10:00 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.haml within layouts/application (5.4ms)
+  Rendered layouts/_navigation.html.haml (290.4ms)
+  Rendered layouts/_footer.html.haml (10.6ms)
+Completed 200 OK in 43581ms (Views: 43551.1ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.4.158.1 at 2013-10-28 14:11:23 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.haml within layouts/application (6.7ms)
+  Rendered layouts/_navigation.html.haml (3.3ms)
+  Rendered layouts/_footer.html.haml (2.1ms)
+Completed 200 OK in 294ms (Views: 262.9ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css?body=1" for 127.4.158.1 at 2013-10-28 14:11:24 -0400
+Started GET "/assets/dashboard.css?body=1" for 127.4.158.1 at 2013-10-28 14:11:24 -0400
+Started GET "/assets/jquery.js?body=1" for 127.4.158.1 at 2013-10-28 14:11:24 -0400
+Started GET "/assets/dashboard.js?body=1" for 127.4.158.1 at 2013-10-28 14:11:24 -0400
+Started GET "/assets/application.js?body=1" for 127.4.158.1 at 2013-10-28 14:11:24 -0400
+Started GET "/assets/turbolinks.js?body=1" for 127.4.158.1 at 2013-10-28 14:11:24 -0400
+Started GET "/assets/jquery_ujs.js?body=1" for 127.4.158.1 at 2013-10-28 14:11:24 -0400
+Started GET "/dashboard" for 127.4.158.1 at 2013-10-28 14:11:24 -0400
+
+ActionController::RoutingError (No route matches [GET] "/dashboard"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  railties (4.0.0) lib/rails/rack/debugger.rb:20:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.9ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (15.3ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (88.0ms)
+Started GET "/dashboard" for 127.4.158.1 at 2013-10-28 14:11:24 -0400
+
+ActionController::RoutingError (No route matches [GET] "/dashboard"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  railties (4.0.0) lib/rails/rack/debugger.rb:20:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (51.0ms)
+Started GET "/" for 127.4.158.1 at 2013-10-28 14:14:19 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.haml within layouts/application (0.2ms)
+  Rendered layouts/_navigation.html.haml (1.1ms)
+  Rendered layouts/_footer.html.haml (0.2ms)
+Completed 200 OK in 701ms (Views: 698.7ms | ActiveRecord: 0.0ms)
+Started GET "/assets/dashboard.css?body=1" for 127.4.158.1 at 2013-10-28 14:14:20 -0400
+Started GET "/assets/application.css?body=1" for 127.4.158.1 at 2013-10-28 14:14:20 -0400
+Started GET "/assets/turbolinks.js?body=1" for 127.4.158.1 at 2013-10-28 14:14:20 -0400
+Started GET "/assets/jquery.js?body=1" for 127.4.158.1 at 2013-10-28 14:14:20 -0400
+Started GET "/assets/jquery_ujs.js?body=1" for 127.4.158.1 at 2013-10-28 14:14:20 -0400
+Started GET "/assets/dashboard.js?body=1" for 127.4.158.1 at 2013-10-28 14:14:20 -0400
+Started GET "/assets/application.js?body=1" for 127.4.158.1 at 2013-10-28 14:14:20 -0400
+Started GET "/update" for 127.4.158.1 at 2013-10-28 14:14:21 -0400
+Processing by DashboardController#update as text/event-stream
+Completed   in 306115ms
+Started GET "/" for 127.4.158.1 at 2013-10-28 14:19:41 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.haml within layouts/application (27.2ms)
+Completed 500 Internal Server Error in 99ms
+
+NoMethodError (undefined method `call' for nil:NilClass):
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:66:in `call_on_error'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:136:in `rescue in block in process'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:145:in `block in process'
+
+
+
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %p and nested within it.):
+    1: %h1 Dashboard#show
+    2: %p Find me in app/views/dashboard/show.html.haml
+    3: %p Current time
+    4:   #{@time}
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/656277/app/views/dashboard/show.html.haml:4
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/haml-4.0.3/lib/haml/parser.rb:394:in `tag'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/haml-4.0.3/lib/haml/parser.rb:214:in `process_line'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/haml-4.0.3/lib/haml/parser.rb:122:in `parse'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/haml-4.0.3/lib/haml/engine.rb:66:in `initialize'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/haml-4.0.3/lib/haml/template/plugin.rb:25:in `new'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/haml-4.0.3/lib/haml/template/plugin.rb:25:in `compile'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/haml-4.0.3/lib/haml/template/plugin.rb:30:in `call'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/template.rb:272:in `compile'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/template.rb:248:in `block in compile!'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `synchronize'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `compile!'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/template.rb:142:in `block in render'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/notifications.rb:161:in `instrument'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/template.rb:141:in `render'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:17:in `render'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:403:in `_run__3638226443528843503__process_action__callbacks'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/live.rb:132:in `block in process'
+
+
+Started GET "/" for 127.4.158.1 at 2013-10-28 14:21:34 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.haml within layouts/application (6.7ms)
+  Rendered layouts/_navigation.html.haml (3.5ms)
+  Rendered layouts/_footer.html.haml (2.6ms)
+Completed 200 OK in 319ms (Views: 285.6ms | ActiveRecord: 0.0ms)
+Started GET "/assets/jquery_ujs.js?body=1" for 127.4.158.1 at 2013-10-28 14:21:35 -0400
+Started GET "/assets/dashboard.css?body=1" for 127.4.158.1 at 2013-10-28 14:21:35 -0400
+Started GET "/assets/jquery.js?body=1" for 127.4.158.1 at 2013-10-28 14:21:35 -0400
+Started GET "/assets/turbolinks.js?body=1" for 127.4.158.1 at 2013-10-28 14:21:35 -0400
+Started GET "/assets/application.css?body=1" for 127.4.158.1 at 2013-10-28 14:21:35 -0400
+Started GET "/assets/dashboard.js?body=1" for 127.4.158.1 at 2013-10-28 14:21:35 -0400
+Started GET "/assets/application.js?body=1" for 127.4.158.1 at 2013-10-28 14:21:35 -0400
+Started GET "/update" for 127.4.158.1 at 2013-10-28 14:21:36 -0400
+Processing by DashboardController#update as text/event-stream
+Completed   in 201467ms
+Started GET "/update" for 127.4.158.1 at 2013-10-28 14:26:08 -0400
+Processing by DashboardController#update as */*
+Completed   in 89132ms
+Started GET "/update" for 127.4.158.1 at 2013-10-28 14:28:05 -0400
+Processing by DashboardController#update as */*
+Completed 200 OK in 51ms (ActiveRecord: 0.0ms)
+Started GET "/update" for 127.4.158.1 at 2013-10-28 14:28:11 -0400
+Processing by DashboardController#update as */*
+Completed 200 OK in 31ms (ActiveRecord: 0.0ms)
+Started GET "/update" for 127.4.158.1 at 2013-10-28 14:28:49 -0400
+Processing by DashboardController#update as */*
+Completed   in 19642ms
+Started GET "/update" for 127.4.158.1 at 2013-10-28 14:29:22 -0400
+Processing by DashboardController#update as */*
+Completed   in 77041ms
+Started GET "/update" for 127.4.158.1 at 2013-10-28 14:31:59 -0400
+Processing by DashboardController#update as */*
+Completed   in 9568ms
+Started GET "/update" for 127.4.158.1 at 2013-10-28 14:32:31 -0400
+Processing by DashboardController#update as */*
+Started GET "/update" for 127.4.158.1 at 2013-10-28 14:34:39 -0400
+Processing by DashboardController#update as */*
+Started GET "/update" for 127.4.158.1 at 2013-10-28 14:37:47 -0400
+Processing by DashboardController#update as */*
+Completed 200 OK in 33089ms (ActiveRecord: 0.0ms)
+Started GET "/update" for 127.4.158.1 at 2013-10-28 14:39:02 -0400
+Processing by DashboardController#update as */*
+Started GET "/update" for 127.4.158.1 at 2013-10-28 14:45:59 -0400
+Processing by DashboardController#update as */*
+Completed 200 OK in 19067ms (ActiveRecord: 0.0ms)
+Started GET "/" for 127.4.158.1 at 2013-10-28 14:46:27 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.haml within layouts/application (5.6ms)
+  Rendered layouts/_navigation.html.haml (3.1ms)
+  Rendered layouts/_footer.html.haml (1.8ms)
+Completed 200 OK in 268ms (Views: 265.0ms | ActiveRecord: 0.0ms)
+Started GET "/assets/dashboard.css?body=1" for 127.4.158.1 at 2013-10-28 14:46:27 -0400
+Started GET "/assets/jquery.js?body=1" for 127.4.158.1 at 2013-10-28 14:46:27 -0400
+Started GET "/assets/application.css?body=1" for 127.4.158.1 at 2013-10-28 14:46:27 -0400
+Started GET "/assets/dashboard.js?body=1" for 127.4.158.1 at 2013-10-28 14:46:27 -0400
+Started GET "/assets/jquery_ujs.js?body=1" for 127.4.158.1 at 2013-10-28 14:46:27 -0400
+Started GET "/assets/turbolinks.js?body=1" for 127.4.158.1 at 2013-10-28 14:46:28 -0400
+Started GET "/assets/application.js?body=1" for 127.4.158.1 at 2013-10-28 14:46:28 -0400
+Started GET "/update" for 127.4.158.1 at 2013-10-28 14:46:28 -0400
+Processing by DashboardController#update as text/event-stream
+Started GET "/update" for 127.4.158.1 at 2013-10-28 14:46:28 -0400
+Processing by DashboardController#update as text/event-stream
+Started GET "/" for 127.4.158.1 at 2013-10-28 14:47:32 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.haml within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.haml (0.6ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 27ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+Started GET "/assets/dashboard.css?body=1" for 127.4.158.1 at 2013-10-28 14:47:32 -0400
+Started GET "/assets/application.css?body=1" for 127.4.158.1 at 2013-10-28 14:47:32 -0400
+Started GET "/assets/jquery.js?body=1" for 127.4.158.1 at 2013-10-28 14:47:32 -0400
+Started GET "/assets/jquery_ujs.js?body=1" for 127.4.158.1 at 2013-10-28 14:47:32 -0400
+Started GET "/assets/dashboard.js?body=1" for 127.4.158.1 at 2013-10-28 14:47:32 -0400
+Started GET "/assets/turbolinks.js?body=1" for 127.4.158.1 at 2013-10-28 14:47:32 -0400
+Started GET "/assets/application.js?body=1" for 127.4.158.1 at 2013-10-28 14:47:32 -0400
+Started GET "/update" for 127.4.158.1 at 2013-10-28 14:47:44 -0400
+Processing by DashboardController#update as text/event-stream
+Started GET "/update" for 127.4.158.1 at 2013-10-28 14:47:44 -0400
+Processing by DashboardController#update as text/event-stream
+Started GET "/" for 127.4.158.1 at 2013-10-28 14:48:38 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.haml within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.haml (0.6ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 30ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css?body=1" for 127.4.158.1 at 2013-10-28 14:48:38 -0400
+Started GET "/assets/jquery.js?body=1" for 127.4.158.1 at 2013-10-28 14:48:38 -0400
+Started GET "/assets/dashboard.css?body=1" for 127.4.158.1 at 2013-10-28 14:48:38 -0400
+Started GET "/assets/jquery_ujs.js?body=1" for 127.4.158.1 at 2013-10-28 14:48:38 -0400
+Started GET "/assets/dashboard.js?body=1" for 127.4.158.1 at 2013-10-28 14:48:38 -0400
+Started GET "/assets/application.js?body=1" for 127.4.158.1 at 2013-10-28 14:48:38 -0400
+Started GET "/assets/turbolinks.js?body=1" for 127.4.158.1 at 2013-10-28 14:48:38 -0400
+Started GET "/assets/dashboard.js?body=1" for 127.4.158.1 at 2013-10-28 14:48:48 -0400
+Started GET "/update" for 127.4.158.1 at 2013-10-28 14:49:26 -0400
+Processing by DashboardController#update as text/event-stream
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:24:12 -0400
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5.000 seconds (waited 5.000 seconds)):
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `block in wait_poll'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `loop'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `wait_poll'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:136:in `block in poll'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:146:in `synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:134:in `poll'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:423:in `acquire_connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  activerecord (4.0.0) lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  activerecord (4.0.0) lib/active_record/connection_handling.rb:53:in `connection'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__4258443062609130162__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  railties (4.0.0) lib/rails/rack/debugger.rb:20:in `call'
+  puma (2.6.0) lib/puma/server.rb:486:in `handle_request'
+  puma (2.6.0) lib/puma/server.rb:357:in `process_client'
+  puma (2.6.0) lib/puma/server.rb:250:in `block in run'
+  puma (2.6.0) lib/puma/thread_pool.rb:92:in `call'
+  puma (2.6.0) lib/puma/thread_pool.rb:92:in `block in spawn_thread'
+
+
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (90.8ms)
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:24:47 -0400
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5.000 seconds (waited 5.000 seconds)):
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `block in wait_poll'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `loop'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `wait_poll'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:136:in `block in poll'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:146:in `synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:134:in `poll'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:423:in `acquire_connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  activerecord (4.0.0) lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  activerecord (4.0.0) lib/active_record/connection_handling.rb:53:in `connection'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__4258443062609130162__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  railties (4.0.0) lib/rails/rack/debugger.rb:20:in `call'
+  puma (2.6.0) lib/puma/server.rb:486:in `handle_request'
+  puma (2.6.0) lib/puma/server.rb:357:in `process_client'
+  puma (2.6.0) lib/puma/server.rb:250:in `block in run'
+  puma (2.6.0) lib/puma/thread_pool.rb:92:in `call'
+  puma (2.6.0) lib/puma/thread_pool.rb:92:in `block in spawn_thread'
+
+
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (54.6ms)
+Completed   in 2246310ms
+Completed   in 2322483ms
+Completed   in 2246497ms
+Completed   in 2144674ms
+Completed   in 2322511ms
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:26:14 -0400
+Processing by DashboardController#update as */*
+Started GET "/" for 127.4.158.1 at 2013-10-28 15:26:23 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.haml within layouts/application (10.9ms)
+  Rendered layouts/_navigation.html.haml (4.6ms)
+  Rendered layouts/_footer.html.haml (2.1ms)
+Completed 200 OK in 1145ms (Views: 1143.0ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css?body=1" for 127.4.158.1 at 2013-10-28 15:26:25 -0400
+Started GET "/assets/dashboard.js?body=1" for 127.4.158.1 at 2013-10-28 15:26:25 -0400
+Started GET "/assets/dashboard.css?body=1" for 127.4.158.1 at 2013-10-28 15:26:25 -0400
+Started GET "/assets/turbolinks.js?body=1" for 127.4.158.1 at 2013-10-28 15:26:25 -0400
+Started GET "/assets/jquery.js?body=1" for 127.4.158.1 at 2013-10-28 15:26:25 -0400
+Started GET "/assets/application.js?body=1" for 127.4.158.1 at 2013-10-28 15:26:25 -0400
+Started GET "/assets/jquery_ujs.js?body=1" for 127.4.158.1 at 2013-10-28 15:26:25 -0400
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:26:28 -0400
+Processing by DashboardController#update as text/event-stream
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:26:29 -0400
+Processing by DashboardController#update as text/event-stream
+Started GET "/" for 127.4.158.1 at 2013-10-28 15:26:41 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.haml within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.haml (0.8ms)
+  Rendered layouts/_footer.html.haml (0.2ms)
+Completed 200 OK in 34ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+Started GET "/assets/dashboard.css?body=1" for 127.4.158.1 at 2013-10-28 15:26:42 -0400
+Started GET "/assets/jquery_ujs.js?body=1" for 127.4.158.1 at 2013-10-28 15:26:42 -0400
+Started GET "/assets/application.css?body=1" for 127.4.158.1 at 2013-10-28 15:26:42 -0400
+Started GET "/assets/jquery.js?body=1" for 127.4.158.1 at 2013-10-28 15:26:42 -0400
+Started GET "/assets/application.js?body=1" for 127.4.158.1 at 2013-10-28 15:26:42 -0400
+Started GET "/assets/turbolinks.js?body=1" for 127.4.158.1 at 2013-10-28 15:26:42 -0400
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:26:46 -0400
+Processing by DashboardController#update as text/event-stream
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:26:47 -0400
+Processing by DashboardController#update as text/event-stream
+Completed 200 OK in 212031ms (ActiveRecord: 0.0ms)
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:29:52 -0400
+
+SyntaxError (/var/lib/stickshift/5267e80f5973caf840000533/app-root/data/656277/app/controllers/dashboard_controller.rb:23: syntax error, unexpected ':', expecting ')'
+        sse.write({ time: Time.now }, :event: 'refresh')
+                                             ^
+/var/lib/stickshift/5267e80f5973caf840000533/app-root/data/656277/app/controllers/dashboard_controller.rb:23: syntax error, unexpected ')', expecting keyword_end):
+  activesupport (4.0.0) lib/active_support/dependencies.rb:423:in `load'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:423:in `block in load_file'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:615:in `new_constants_in'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:422:in `load_file'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:323:in `require_or_load'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:462:in `load_missing_constant'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:183:in `const_missing'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:534:in `get'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:565:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__1271026705739917693__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  railties (4.0.0) lib/rails/rack/debugger.rb:20:in `call'
+  puma (2.6.0) lib/puma/server.rb:486:in `handle_request'
+  puma (2.6.0) lib/puma/server.rb:357:in `process_client'
+  puma (2.6.0) lib/puma/server.rb:250:in `block in run'
+  puma (2.6.0) lib/puma/thread_pool.rb:92:in `call'
+  puma (2.6.0) lib/puma/thread_pool.rb:92:in `block in spawn_thread'
+
+
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (136.8ms)
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:30:01 -0400
+
+SyntaxError (/var/lib/stickshift/5267e80f5973caf840000533/app-root/data/656277/app/controllers/dashboard_controller.rb:23: syntax error, unexpected ':', expecting ')'
+        sse.write({ time: Time.now }, :event: 'refresh')
+                                             ^
+/var/lib/stickshift/5267e80f5973caf840000533/app-root/data/656277/app/controllers/dashboard_controller.rb:23: syntax error, unexpected ')', expecting keyword_end):
+  activesupport (4.0.0) lib/active_support/dependencies.rb:423:in `load'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:423:in `block in load_file'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:615:in `new_constants_in'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:422:in `load_file'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:323:in `require_or_load'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:462:in `load_missing_constant'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:183:in `const_missing'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:534:in `get'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:565:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__1271026705739917693__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  railties (4.0.0) lib/rails/rack/debugger.rb:20:in `call'
+  puma (2.6.0) lib/puma/server.rb:486:in `handle_request'
+  puma (2.6.0) lib/puma/server.rb:357:in `process_client'
+  puma (2.6.0) lib/puma/server.rb:250:in `block in run'
+  puma (2.6.0) lib/puma/thread_pool.rb:92:in `call'
+  puma (2.6.0) lib/puma/thread_pool.rb:92:in `block in spawn_thread'
+
+
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (460.6ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (674.4ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1645.9ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11918.4ms)
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:30:38 -0400
+Completed   in 252301ms
+Completed   in 253712ms
+Completed   in 235715ms
+Completed   in 235066ms
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:31:23 -0400
+Processing by DashboardController#update as */*
+Started GET "/" for 127.4.158.1 at 2013-10-28 15:31:34 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.haml within layouts/application (5.7ms)
+  Rendered layouts/_navigation.html.haml (3.6ms)
+  Rendered layouts/_footer.html.haml (2.1ms)
+Completed 200 OK in 242ms (Views: 239.9ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css?body=1" for 127.4.158.1 at 2013-10-28 15:31:35 -0400
+Started GET "/assets/dashboard.js?body=1" for 127.4.158.1 at 2013-10-28 15:31:35 -0400
+Started GET "/assets/jquery_ujs.js?body=1" for 127.4.158.1 at 2013-10-28 15:31:35 -0400
+Started GET "/assets/dashboard.css?body=1" for 127.4.158.1 at 2013-10-28 15:31:35 -0400
+Started GET "/assets/jquery.js?body=1" for 127.4.158.1 at 2013-10-28 15:31:35 -0400
+Started GET "/assets/turbolinks.js?body=1" for 127.4.158.1 at 2013-10-28 15:31:35 -0400
+Started GET "/assets/application.js?body=1" for 127.4.158.1 at 2013-10-28 15:31:35 -0400
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:31:46 -0400
+Processing by DashboardController#update as text/event-stream
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:31:46 -0400
+Processing by DashboardController#update as text/event-stream
+Started GET "/" for 127.4.158.1 at 2013-10-28 15:31:46 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.haml within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.haml (0.6ms)
+  Rendered layouts/_footer.html.haml (0.6ms)
+Completed 200 OK in 31ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css?body=1" for 127.4.158.1 at 2013-10-28 15:31:46 -0400
+Started GET "/assets/jquery_ujs.js?body=1" for 127.4.158.1 at 2013-10-28 15:31:46 -0400
+Started GET "/assets/dashboard.css?body=1" for 127.4.158.1 at 2013-10-28 15:31:46 -0400
+Started GET "/assets/jquery.js?body=1" for 127.4.158.1 at 2013-10-28 15:31:46 -0400
+Started GET "/assets/turbolinks.js?body=1" for 127.4.158.1 at 2013-10-28 15:31:46 -0400
+Started GET "/assets/dashboard.js?body=1" for 127.4.158.1 at 2013-10-28 15:31:46 -0400
+Started GET "/assets/application.js?body=1" for 127.4.158.1 at 2013-10-28 15:31:46 -0400
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:31:48 -0400
+Processing by DashboardController#update as text/event-stream
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:31:48 -0400
+Processing by DashboardController#update as text/event-stream
+Started GET "/" for 127.4.158.1 at 2013-10-28 15:31:48 -0400
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5.000 seconds (waited 5.002 seconds)):
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `block in wait_poll'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `loop'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `wait_poll'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:136:in `block in poll'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:146:in `synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:134:in `poll'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:423:in `acquire_connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  activerecord (4.0.0) lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  activerecord (4.0.0) lib/active_record/connection_handling.rb:53:in `connection'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__744688737885667989__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  railties (4.0.0) lib/rails/rack/debugger.rb:20:in `call'
+  puma (2.6.0) lib/puma/server.rb:486:in `handle_request'
+  puma (2.6.0) lib/puma/server.rb:357:in `process_client'
+  puma (2.6.0) lib/puma/server.rb:250:in `block in run'
+  puma (2.6.0) lib/puma/thread_pool.rb:92:in `call'
+  puma (2.6.0) lib/puma/thread_pool.rb:92:in `block in spawn_thread'
+
+
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (58.8ms)
+Completed   in 245614ms
+Completed   in 245597ms
+Completed   in 269637ms
+Completed   in 247226ms
+Completed   in 247359ms
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:36:36 -0400
+Processing by DashboardController#update as */*
+Started GET "/" for 127.4.158.1 at 2013-10-28 15:36:48 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.haml within layouts/application (6.4ms)
+  Rendered layouts/_navigation.html.haml (3.7ms)
+  Rendered layouts/_footer.html.haml (2.3ms)
+Completed 200 OK in 295ms (Views: 293.1ms | ActiveRecord: 0.0ms)
+Started GET "/assets/dashboard.css?body=1" for 127.4.158.1 at 2013-10-28 15:36:49 -0400
+Started GET "/assets/turbolinks.js?body=1" for 127.4.158.1 at 2013-10-28 15:36:49 -0400
+Started GET "/assets/application.css?body=1" for 127.4.158.1 at 2013-10-28 15:36:49 -0400
+Started GET "/assets/jquery_ujs.js?body=1" for 127.4.158.1 at 2013-10-28 15:36:49 -0400
+Started GET "/assets/dashboard.js?body=1" for 127.4.158.1 at 2013-10-28 15:36:49 -0400
+Started GET "/assets/application.js?body=1" for 127.4.158.1 at 2013-10-28 15:36:49 -0400
+Started GET "/assets/jquery.js?body=1" for 127.4.158.1 at 2013-10-28 15:36:49 -0400
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:36:50 -0400
+Processing by DashboardController#update as text/event-stream
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:36:50 -0400
+Processing by DashboardController#update as text/event-stream
+Started GET "/" for 127.4.158.1 at 2013-10-28 15:36:50 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.haml within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.haml (0.6ms)
+  Rendered layouts/_footer.html.haml (0.2ms)
+Completed 200 OK in 47ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css?body=1" for 127.4.158.1 at 2013-10-28 15:36:51 -0400
+Started GET "/assets/jquery.js?body=1" for 127.4.158.1 at 2013-10-28 15:36:51 -0400
+Started GET "/assets/dashboard.css?body=1" for 127.4.158.1 at 2013-10-28 15:36:51 -0400
+Started GET "/assets/jquery_ujs.js?body=1" for 127.4.158.1 at 2013-10-28 15:36:51 -0400
+Started GET "/assets/turbolinks.js?body=1" for 127.4.158.1 at 2013-10-28 15:36:51 -0400
+Started GET "/assets/dashboard.js?body=1" for 127.4.158.1 at 2013-10-28 15:36:51 -0400
+Started GET "/assets/application.js?body=1" for 127.4.158.1 at 2013-10-28 15:36:51 -0400
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:36:52 -0400
+Processing by DashboardController#update as text/event-stream
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:36:52 -0400
+Processing by DashboardController#update as text/event-stream
+Started GET "/" for 127.4.158.1 at 2013-10-28 15:36:52 -0400
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5.000 seconds (waited 5.000 seconds)):
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `block in wait_poll'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `loop'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `wait_poll'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:136:in `block in poll'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:146:in `synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:134:in `poll'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:423:in `acquire_connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  activerecord (4.0.0) lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  activerecord (4.0.0) lib/active_record/connection_handling.rb:53:in `connection'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__4521869719312411508__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  railties (4.0.0) lib/rails/rack/debugger.rb:20:in `call'
+  puma (2.6.0) lib/puma/server.rb:486:in `handle_request'
+  puma (2.6.0) lib/puma/server.rb:357:in `process_client'
+  puma (2.6.0) lib/puma/server.rb:250:in `block in run'
+  puma (2.6.0) lib/puma/thread_pool.rb:92:in `call'
+  puma (2.6.0) lib/puma/thread_pool.rb:92:in `block in spawn_thread'
+
+
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.4ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (94.9ms)
+Completed   in 147233ms
+Completed   in 147257ms
+Completed   in 163213ms
+Completed   in 149174ms
+Completed   in 149149ms
+Started GET "/" for 127.4.158.1 at 2013-10-28 15:39:36 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.haml within layouts/application (5.8ms)
+  Rendered layouts/_navigation.html.haml (3.3ms)
+  Rendered layouts/_footer.html.haml (4.3ms)
+Completed 200 OK in 289ms (Views: 259.0ms | ActiveRecord: 0.0ms)
+Started GET "/assets/jquery.js?body=1" for 127.4.158.1 at 2013-10-28 15:39:37 -0400
+Started GET "/assets/dashboard.css?body=1" for 127.4.158.1 at 2013-10-28 15:39:37 -0400
+Started GET "/assets/application.css?body=1" for 127.4.158.1 at 2013-10-28 15:39:37 -0400
+Started GET "/assets/dashboard.js?body=1" for 127.4.158.1 at 2013-10-28 15:39:37 -0400
+Started GET "/assets/turbolinks.js?body=1" for 127.4.158.1 at 2013-10-28 15:39:37 -0400
+Started GET "/assets/jquery_ujs.js?body=1" for 127.4.158.1 at 2013-10-28 15:39:37 -0400
+Started GET "/assets/application.js?body=1" for 127.4.158.1 at 2013-10-28 15:39:37 -0400
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:39:38 -0400
+Processing by DashboardController#update as text/event-stream
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:39:38 -0400
+Processing by DashboardController#update as text/event-stream
+Started GET "/" for 127.4.158.1 at 2013-10-28 15:39:38 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.haml within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.haml (0.6ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+Started GET "/assets/jquery_ujs.js?body=1" for 127.4.158.1 at 2013-10-28 15:39:39 -0400
+Started GET "/assets/application.css?body=1" for 127.4.158.1 at 2013-10-28 15:39:39 -0400
+Started GET "/assets/dashboard.css?body=1" for 127.4.158.1 at 2013-10-28 15:39:39 -0400
+Started GET "/assets/dashboard.js?body=1" for 127.4.158.1 at 2013-10-28 15:39:39 -0400
+Started GET "/assets/turbolinks.js?body=1" for 127.4.158.1 at 2013-10-28 15:39:39 -0400
+Started GET "/assets/jquery.js?body=1" for 127.4.158.1 at 2013-10-28 15:39:39 -0400
+Started GET "/assets/application.js?body=1" for 127.4.158.1 at 2013-10-28 15:39:39 -0400
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:39:40 -0400
+Processing by DashboardController#update as text/event-stream
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:39:40 -0400
+Processing by DashboardController#update as text/event-stream
+Started GET "/" for 127.4.158.1 at 2013-10-28 15:39:40 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.haml within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.haml (0.6ms)
+  Rendered layouts/_footer.html.haml (0.1ms)
+Completed 200 OK in 25ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css?body=1" for 127.4.158.1 at 2013-10-28 15:39:41 -0400
+Started GET "/assets/dashboard.css?body=1" for 127.4.158.1 at 2013-10-28 15:39:41 -0400
+Started GET "/assets/jquery_ujs.js?body=1" for 127.4.158.1 at 2013-10-28 15:39:41 -0400
+Started GET "/assets/jquery.js?body=1" for 127.4.158.1 at 2013-10-28 15:39:41 -0400
+Started GET "/assets/dashboard.js?body=1" for 127.4.158.1 at 2013-10-28 15:39:41 -0400
+Started GET "/assets/turbolinks.js?body=1" for 127.4.158.1 at 2013-10-28 15:39:41 -0400
+Started GET "/assets/application.js?body=1" for 127.4.158.1 at 2013-10-28 15:39:41 -0400
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:39:42 -0400
+Processing by DashboardController#update as text/event-stream
+Started GET "/update" for 127.4.158.1 at 2013-10-28 15:40:41 -0400
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5.000 seconds (waited 5.009 seconds)):
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `block in wait_poll'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `loop'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `wait_poll'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:136:in `block in poll'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:146:in `synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:134:in `poll'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:423:in `acquire_connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  activerecord (4.0.0) lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  activerecord (4.0.0) lib/active_record/connection_handling.rb:53:in `connection'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__2696816705959536227__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  railties (4.0.0) lib/rails/rack/debugger.rb:20:in `call'
+  puma (2.6.0) lib/puma/server.rb:486:in `handle_request'
+  puma (2.6.0) lib/puma/server.rb:357:in `process_client'
+  puma (2.6.0) lib/puma/server.rb:250:in `block in run'
+  puma (2.6.0) lib/puma/thread_pool.rb:92:in `call'
+  puma (2.6.0) lib/puma/thread_pool.rb:92:in `block in spawn_thread'
+
+
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.5ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (13.5ms)
+  Rendered /var/lib/stickshift/5267e80f5973caf840000533/app-root/data/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (1254.4ms)
+Completed   in 77847ms
+Completed   in 81723ms
+Completed   in 79813ms
+Completed   in 81742ms
+Completed   in 79751ms
