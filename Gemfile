@@ -16,6 +16,10 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'omniauth-facebook'
 gem 'puma'
+gem 'clockwork'
+gem 'devise'
+
+gem 'delayed_job_active_record'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
