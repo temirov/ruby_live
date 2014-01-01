@@ -15,7 +15,8 @@
       %nav
         = render 'layouts/navigation', cache: true
     #main{role: "main"}
-      .messages
+      = render 'layouts/messages', cache: true
+
       = yield
     %footer
       %nav
