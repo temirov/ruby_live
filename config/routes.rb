@@ -1,5 +1,6 @@
 Liveexample::Application.routes.draw do
-  get "dashboard/show"
-  get 'update' => "dashboard#update"
+  devise_for :users
+  get "events" => "dashboard#events"
+  resource :dashboard, controller: :dashboard, only: [:show]
   root 'dashboard#show'
 end
