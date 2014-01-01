@@ -22,4 +22,8 @@ Liveexample::Application.configure do
   # number of complex assets.
   config.assets.debug = true
   config.action_mailer.default_url_options = { host: 'localhost:3000' }
+
+  #Settings to enable concurrent Live streaming
+  config.preload_frameworks = true  
+  config.allow_concurrency = true
 end
