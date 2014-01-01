@@ -1,23 +1,26 @@
-development:
-  adapter: sqlite3
-  database: db/development.sqlite3
-  pool: 5
-  timeout: 5000
-
-c9:
-  adapter: sqlite3
-  database: db/c9.sqlite3
-  pool: 5
-  timeout: 5000
-
 test:
-  adapter: sqlite3
-  database: db/test.sqlite3
+  adapter: mysql2
+  encoding: utf8
+  database: elstream_test
   pool: 5
-  timeout: 5000
+  username: root
+  password:
+  socket: /tmp/mysql.sock
+
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: elstream_development
+  pool: 5
+  username: root
+  password:
+  socket: /tmp/mysql.sock
 
 production:
-  adapter: sqlite3
-  database: db/production.sqlite3
+  adapter: mysql2
+  encoding: utf8
+  database: elstream_production
   pool: 5
-  timeout: 5000
+  username: root
+  password:
+  socket: /tmp/mysql.sock
