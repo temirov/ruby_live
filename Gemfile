@@ -8,11 +8,10 @@ gem 'mysql2'
 
 gem 'sass-rails', '~> 4'
 gem 'haml-rails'
-gem 'uglifier', '>= 1.3.0'
+gem 'uglifier'
 gem 'coffee-rails', '~> 4'
 gem 'jquery-rails'
-gem 'turbolinks'
-gem 'jbuilder', '~> 1.2'
+gem 'jbuilder'
 
 gem 'puma'
 gem 'clockwork'
